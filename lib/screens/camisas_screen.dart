@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 class CamisasScreen extends StatelessWidget {
   final List<Map<String, dynamic>> products = [
     {
-      'image': 'https://via.placeholder.com/150',
-      'description': 'Camisa de algodón, perfecta para el día a día.',
+      'image': './assets/images/camisa1.jpg',
+      'description': 'Camisa para sentirte mas ligera.',
       'price': 50000,
     },
     {
-      'image': 'https://via.placeholder.com/150',
+      'image': './assets/images/camisa2.jpg',
       'description': 'Camisa deportiva de secado rápido.',
       'price': 45000,
     },

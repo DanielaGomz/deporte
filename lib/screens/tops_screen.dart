@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 class TopsScreen extends StatelessWidget {
   final List<Map<String, dynamic>> products = [
     {
-      'image': 'https://via.placeholder.com/150',
+      'image': './assets/images/top1.jpg',
       'description': 'Top deportivo con soporte medio.',
       'price': 40000,
     },
     {
-      'image': 'https://via.placeholder.com/150',
+      'image': './assets/images/top2.jpg',
       'description': 'Top sin costuras, ideal para yoga.',
       'price': 35000,
     },
